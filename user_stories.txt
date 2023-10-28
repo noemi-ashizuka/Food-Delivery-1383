@@ -1,0 +1,10 @@
+As a user, I can list all the meals [X]
+As a user, I can add a new meal [X]
+As a user, I can add a new customer [X]
+As a user, I can list all the customers [X]
+
+(optionals)
+As a user I can edit a meal [ ]
+As a user I can destroy a meal [ ]
+As a user I can edit a customer [ ]
+As a user I can destroy a customer [ ]
