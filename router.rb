@@ -39,7 +39,7 @@ class Router
   def display_menu
     puts ""
     puts "~~~~~~~~~~~~~MENU~~~~~~~~~~~~~"
-    puts "What do you wnat to do?"
+    puts "What do you want to do?"
     puts ""
     puts "1 - List all Meals"
     puts "2 - Add a new meal"

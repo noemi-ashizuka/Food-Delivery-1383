@@ -1,4 +1,6 @@
-class CustomersView
+require_relative 'base_view'
+
+class CustomersView < BaseView
   def display(customers)
     if customers.any?
       customers.each_with_index do |customer, index|
@@ -7,10 +9,5 @@ class CustomersView
     else
       puts "No customers yet"
     end
-  end
-
-  def ask_for(thing)
-    puts "What's the #{thing}?"
-    gets.chomp
   end
 end
